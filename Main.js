@@ -6,5 +6,3 @@ function newdiv(color, sizex, sizey, name) {
     a.id = name;
     return a;
 }
-
-module.exports = {newdiv};
