@@ -1,3 +1,4 @@
+// newdiv.js
 export default function newdiv(color, sizex, sizey, name) {
   const a = document.createElement("div");
   a.style.backgroundColor = color;
