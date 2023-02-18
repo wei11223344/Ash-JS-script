@@ -1,8 +1,8 @@
 //Syntax list
 /////////////// ash ///////////////
-header {Text} {Id}
+header {Text}
 ex:
-header("test", "myid");
+header("test");
 
 button {BtnText} {Id}
 ex:
@@ -16,6 +16,12 @@ addappendchild {element}
 ex:
 div2 = newdiv("orange", "25%", "25%", "DivIDtest");
 addappendchild(div2);
+
+appendname {element id} {object}
+ex:
+var mydiv = newdiv("orange", "25%", "25%", "MainDiv");
+var myheader = header("Test example");
+appendname("MainDiv", myheader);
 
 iframe {URL} {sizex} {sizey}
 ex:
