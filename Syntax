@@ -2,24 +2,24 @@
 /////////////// ash ///////////////
 header {Text} {Id}
 ex:
-header("test", "myid");
+var myheader = header("test", "myid");
 
 button {BtnText} {Id}
 ex:
-button("Test button", "ButtonID");
+var mybutton = button("Test button", "ButtonID");
 
 newdiv {color} {sizex} {sizey} {id}
 ex:
-newdiv("orange", "25%", "25%", "DivIDtest");
+var mydiv = newdiv("orange", "25%", "25%", "DivIDtest");
 
 addappendchild {element}
 ex:
-div2 = newdiv("orange", "25%", "25%", "DivIDtest");
+var div2 = newdiv("orange", "25%", "25%", "DivIDtest");
 addappendchild(div2);
 
 iframe {URL} {sizex} {sizey}
 ex:
-itest = iframe("https://yocodegames.weebly.com", "50%", "50%");
+var itest = iframe("https://yocodegames.weebly.com", "50%", "50%");
 addappendchild(itest);
 
 blookhack2coins {coins}
