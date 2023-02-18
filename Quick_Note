@@ -1,0 +1,10 @@
+Hi thank you for checking out this JS kit. There are a few things you should know.
+1. Do not comment your code ex: // that will make the code not able to run on a bookmarklet
+
+Make sure that when you use the onclick feature you should call the function here is an example:
+var mybutton = button("Click me", clickfire);
+function clickfire() {
+    console.log("yay you clicked this!")
+}
+  If you do not add a clickevent you will get an error message and it wont run.
+3. Lastly enjoy! This client offers several things for starters and can help you develop anything web related(even blooket cheats)
