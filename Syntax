@@ -1,0 +1,43 @@
+//Syntax list
+/////////////// ash ///////////////
+header {Text} {Id}
+ex:
+header("test", "myid");
+
+button {BtnText} {Id}
+ex:
+button("Test button", "ButtonID");
+
+newdiv {color} {sizex} {sizey} {id}
+ex:
+newdiv("orange", "25%", "25%", "DivIDtest");
+
+addappendchild {element}
+ex:
+div2 = newdiv("orange", "25%", "25%", "DivIDtest");
+addappendchild(div2);
+
+iframe {URL} {sizex} {sizey}
+ex:
+itest = iframe("https://yocodegames.weebly.com", "50%", "50%");
+addappendchild(itest);
+
+blookhack2coins {coins}
+ex:
+blookhack2coins(2,0000);
+
+spamblookbuy {pack} {(opional) random}
+ex:
+spamblookbuy("medieval");
+
+globalselldupes
+ex:
+globalselldupes
+
+simulateblookunlock {pack}
+ex:
+simulateblookunlock("medieval");
+
+anyblook
+ex:
+anyblook
